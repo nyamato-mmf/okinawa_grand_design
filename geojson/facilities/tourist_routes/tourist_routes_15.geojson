@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "沖縄そば専門店　与那原家", "住所": "1040 Yonabaru, Shimajiri District, Okinawa 901-1303, Japan", "lat": 26.2087309, "lon": 127.7582425 }, "geometry": { "type": "Point", "coordinates": [ 127.7582425, 26.2087309 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "御殿山（うどぅんやま）親水公園", "住所": "Gotenyama Water Park, Yonabaru, Shimajiri District, Okinawa 901-1303, Japan", "lat": 26.2047524, "lon": 127.7562549 }, "geometry": { "type": "Point", "coordinates": [ 127.7562549, 26.2047524 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "与那原大綱曳資料館", "住所": "16-2 Ueyonabaru, Yonabaru, Shimajiri District, Okinawa 901-1302, Japan", "lat": 26.199482, "lon": 127.7554496 }, "geometry": { "type": "Point", "coordinates": [ 127.7554496, 26.199482 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "オリオン通り周辺で食べ飲み歩き", "住所": "Okinawa, Japan", "lat": 26.1201911, "lon": 127.7025012 }, "geometry": { "type": "Point", "coordinates": [ 127.7025012, 26.1201911 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "かりゆしコンドミニアムリゾート与那原ＳＵＮＲＩＺＥ・ＯＣＥＡＮ", "住所": "611-3 Itarashiki, Yonabaru, Shimajiri District, Okinawa 901-1301, Japan", "lat": 26.193404, "lon": 127.7696555 }, "geometry": { "type": "Point", "coordinates": [ 127.7696555, 26.193404 ] } }
+]
+}

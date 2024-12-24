@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "白保海岸", "住所": "2107-2 Shiraho, Ishigaki, Okinawa 907-0242, Japan", "lat": 24.3545199, "lon": 124.2456203 }, "geometry": { "type": "Point", "coordinates": [ 124.2456203, 24.3545199 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "旬家ばんちゃん", "住所": "13-1 Shiraho, Ishigaki, Okinawa 907-0242, Japan", "lat": 24.354107, "lon": 124.2448511 }, "geometry": { "type": "Point", "coordinates": [ 124.2448511, 24.354107 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "ユーグレナモール", "住所": "203 Ōkawa, Ishigaki, Okinawa 907-0022, Japan", "lat": 24.3398832, "lon": 124.1583323 }, "geometry": { "type": "Point", "coordinates": [ 124.1583323, 24.3398832 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "GO-SHERE石垣島", "住所": "Ishigaki, Okinawa, Japan", "lat": 24.4064027, "lon": 124.1754442 }, "geometry": { "type": "Point", "coordinates": [ 124.1754442, 24.4064027 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "あざみ屋本店 みんさー工芸館", "住所": "909 Tonoshiro, Ishigaki, Okinawa 907-0004, Japan", "lat": 24.341645, "lon": 124.170885 }, "geometry": { "type": "Point", "coordinates": [ 124.170885, 24.341645 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "アールズカフェ R's Cafe", "住所": "Okinawa, Japan", "lat": 26.1201911, "lon": 127.7025012 }, "geometry": { "type": "Point", "coordinates": [ 127.7025012, 26.1201911 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "高嶺酒造", "住所": "930-2 Kabira, Ishigaki, Okinawa 907-0453, Japan", "lat": 24.4602833, "lon": 124.1411222 }, "geometry": { "type": "Point", "coordinates": [ 124.1411222, 24.4602833 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "川平湾", "住所": "Kabira, Ishigaki, Okinawa 907-0453, Japan", "lat": 24.4470894, "lon": 124.1587576 }, "geometry": { "type": "Point", "coordinates": [ 124.1587576, 24.4470894 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "南ぬ島　石垣空港", "住所": "Painushima Ishigaki Airport (ISG), 1960-104-1 Shiraho, Ishigaki, Okinawa 907-0242, Japan", "lat": 24.3959339, "lon": 124.2457879 }, "geometry": { "type": "Point", "coordinates": [ 124.2457879, 24.3959339 ] } }
+]
+}

@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "渡嘉敷村立歴史民俗資料館", "住所": "346 Tokashiki, Shimajiri District, Okinawa 901-3501, Japan", "lat": 26.1989524, "lon": 127.3671602 }, "geometry": { "type": "Point", "coordinates": [ 127.3671602, 26.1989524 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "阿波連ビーチ", "住所": "Aharen Beach, Aharen, Tokashiki, Shimajiri District, Okinawa 901-3502, Japan", "lat": 26.1701102, "lon": 127.3459288 }, "geometry": { "type": "Point", "coordinates": [ 127.3459288, 26.1701102 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "阿波連園地", "住所": "Aharen, Tokashiki, Shimajiri District, Okinawa 901-3502, Japan", "lat": 26.1683549, "lon": 127.3533379 }, "geometry": { "type": "Point", "coordinates": [ 127.3533379, 26.1683549 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "見花原遊歩道", "住所": "Mihanahara Esplanade., Aharen, Tokashiki, Shimajiri District, Okinawa 901-3502, Japan", "lat": 26.16601, "lon": 127.35509 }, "geometry": { "type": "Point", "coordinates": [ 127.35509, 26.16601 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "西展望台", "住所": "Japan, 〒901-3501 Okinawa, Shimajiri District, Tokashiki, ２７６０ 内 国立沖縄青少年交流の家", "lat": 26.2113582, "lon": 127.3629399 }, "geometry": { "type": "Point", "coordinates": [ 127.3629399, 26.2113582 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "集団自決跡地", "住所": "Japan, 〒901-3501 Okinawa, Shimajiri District, Tokashiki, ２７６０ 内 国立沖縄青少年交流の家", "lat": 26.2124104, "lon": 127.3648707 }, "geometry": { "type": "Point", "coordinates": [ 127.3648707, 26.2124104 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "渡嘉志久ビーチ", "住所": "Tokashiku Beach, 1919-1 Tokashiki, Shimajiri District, Okinawa 901-3501, Japan", "lat": 26.1857746, "lon": 127.3479034 }, "geometry": { "type": "Point", "coordinates": [ 127.3479034, 26.1857746 ] } }
+]
+}

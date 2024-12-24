@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "久米の五枝の松", "住所": "Uezu, Kumejima, Shimajiri District, Okinawa 901-3138, Japan", "lat": 26.3587143, "lon": 126.7425802 }, "geometry": { "type": "Point", "coordinates": [ 126.7425802, 26.3587143 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "上江洲家住宅", "住所": "816 Nishime, Kumejima, Shimajiri District, Okinawa 901-3131, Japan", "lat": 26.3550633, "lon": 126.7489367 }, "geometry": { "type": "Point", "coordinates": [ 126.7489367, 26.3550633 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "久米島ホタル館", "住所": "420 Ōta, Kumejima, Shimajiri District, Okinawa 901-3123, Japan", "lat": 26.348589, "lon": 126.755367 }, "geometry": { "type": "Point", "coordinates": [ 126.755367, 26.348589 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "ミーフガー", "住所": "Nakandakari, Kumejima, Shimajiri District, Okinawa 901-3135, Japan", "lat": 26.3868908, "lon": 126.7545983 }, "geometry": { "type": "Point", "coordinates": [ 126.7545983, 26.3868908 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "具志川城跡(久米島)", "住所": "Nakandakari, Kumejima, Shimajiri District, Okinawa 901-3135, Japan", "lat": 26.3831585, "lon": 126.750946 }, "geometry": { "type": "Point", "coordinates": [ 126.750946, 26.3831585 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "比屋定バンタ", "住所": "Aka, Kumejima, Shimajiri District, Okinawa 901-3103, Japan", "lat": 26.3740643, "lon": 126.7889975 }, "geometry": { "type": "Point", "coordinates": [ 126.7889975, 26.3740643 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "ハテの浜", "住所": "Japan, 〒901-3106 Okinawa, Shimajiri District, Kumejima, Ou, o日本", "lat": 26.3461315, "lon": 126.8856495 }, "geometry": { "type": "Point", "coordinates": [ 126.8856495, 26.3461315 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "久米島町奥武島の畳石", "住所": "Tatami Rock, 170 Ou, Kumejima, Shimajiri District, Okinawa 901-3106, Japan", "lat": 26.3360377, "lon": 126.824069 }, "geometry": { "type": "Point", "coordinates": [ 126.824069, 26.3360377 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "宇江城城跡", "住所": "Uegusuku, Kumejima, Shimajiri District, Okinawa 901-3101, Japan", "lat": 26.3771252, "lon": 126.7702116 }, "geometry": { "type": "Point", "coordinates": [ 126.7702116, 26.3771252 ] } }
+]
+}

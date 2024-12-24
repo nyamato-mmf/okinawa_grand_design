@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "喜喜", "住所": "Okinawa, Japan", "lat": 26.1201911, "lon": 127.7025012 }, "geometry": { "type": "Point", "coordinates": [ 127.7025012, 26.1201911 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "中村家住宅（国指定重要文化財）", "住所": "106 Ōgusuku, Kitanakagusuku, Nakagami District, Okinawa 901-2314, Japan", "lat": 26.2898777, "lon": 127.8006433 }, "geometry": { "type": "Point", "coordinates": [ 127.8006433, 26.2898777 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "地元おじぃガイドによる荻道・大城集落散策", "住所": "Ogido, Ogidō, Kitanakagusuku, Nakagami District, Okinawa 901-2315, Japan", "lat": 26.2930234, "lon": 127.7967567 }, "geometry": { "type": "Point", "coordinates": [ 127.7967567, 26.2930234 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "EMウェルネスホテル", "住所": "1478 Kishaba, Kitanakagusuku, Nakagami District, Okinawa 901-2311, Japan", "lat": 26.3064071, "lon": 127.7953117 }, "geometry": { "type": "Point", "coordinates": [ 127.7953117, 26.3064071 ] } }
+]
+}

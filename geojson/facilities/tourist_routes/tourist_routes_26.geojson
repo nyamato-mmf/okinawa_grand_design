@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "伊平屋村歴史民俗資料館", "住所": "217-27 Gakiya, Iheya, Shimajiri District, Okinawa 905-0703, Japan", "lat": 27.0378673, "lon": 127.9682074 }, "geometry": { "type": "Point", "coordinates": [ 127.9682074, 27.0378673 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "虎頭岩", "住所": "Japan, 〒905-0703 Okinawa, Shimajiri District, Iheya, Gakiya, ２４１ 虎頭岩", "lat": 27.0398219, "lon": 127.9676044 }, "geometry": { "type": "Point", "coordinates": [ 127.9676044, 27.0398219 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "野甫大橋", "住所": "Nohoo Bridge, Shimajiri, Iheya, Shimajiri District, Okinawa 905-0704, Japan", "lat": 26.9982775, "lon": 127.9311985 }, "geometry": { "type": "Point", "coordinates": [ 127.9311985, 26.9982775 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "世界塩の博物館ソルトクルーズ", "住所": "Japan, 〒905-0705 Okinawa, Shimajiri District, Iheya, Noho, 世界塩の博物館", "lat": 26.994483, "lon": 127.922926 }, "geometry": { "type": "Point", "coordinates": [ 127.922926, 26.994483 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "伊平屋島の念頭平松", "住所": "Dana, Iheya, Shimajiri District, Okinawa 905-0701, Japan", "lat": 27.0715758, "lon": 127.9967428 }, "geometry": { "type": "Point", "coordinates": [ 127.9967428, 27.0715758 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "くまや洞窟", "住所": "Unnamed Rd, 田名 伊平屋村 島尻郡 沖縄県 905-0701, Japan", "lat": 27.0877544, "lon": 128.0141658 }, "geometry": { "type": "Point", "coordinates": [ 128.0141658, 27.0877544 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "ヤヘー岩", "住所": "Japan, 〒905-0701 Okinawa, Shimajiri District, Iheya, Dana, Unnamed Road", "lat": 27.091296, "lon": 127.9956998 }, "geometry": { "type": "Point", "coordinates": [ 127.9956998, 27.091296 ] } }
+]
+}

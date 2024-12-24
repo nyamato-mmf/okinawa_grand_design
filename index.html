@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico">
+    <title>Okinawa data</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Custom.css -->
+    <link href="./css/custom.css" rel="stylesheet">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Mapbox -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.js"></script>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+    <div class="">
+
+        <!-- ------------------------------------------------------------------
+            Mapboxキャンバス
+        ------------------------------------------------------------------- -->
+        <div id="map"></div>
+        <div id="loading" class="spinner-border text-primary" role="status"><span
+            class="visually-hidden">Loading...</span></div>
+            
+        <!-- ------------------------------------------------------------------
+            Chart.jsキャンバス
+        ------------------------------------------------------------------- -->
+        <div id="canvas-container">
+            <canvas id="myChart"></canvas>
+        </div>
+
+        <!-- ------------------------------------------------------------------
+            CPSキャンバス
+        ------------------------------------------------------------------- -->
+        <div id="cps-container">
+            <div class="chart-container">
+                <canvas id="recognition" class="myCPS"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="words_okinawa" class="myCPS" style="width: 650px; height: 500px;"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="visit" class="myCPS"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="visited_resorts" class="myCPS" style="width: 650px; height: 500px;"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="want2visit_resorts" class="myCPS" style="width: 650px; height: 500px;"></canvas>
+            </div>
+        </div>
+
+        <!-- サイドバー: icons -->
+        <div class="container bg-light position-fixed px-4" style="width: 75px; height:100vh; z-index:3">
+            <!-- オフキャンバス icon -->
+            <div class="mt-4">
+                <img src="./img/arrows.svg" type="button" data-bs-toggle="offcanvas" data-bs-target="#off-canvas">
+            </div>
+            <hr style="background-color: #191919; height: 2px;">
+            <!-- 沖縄データ icon -->
+            <div class="mt-4">
+                <div class="image-container">
+                    <a href="#">
+                        <img src="./img/data.svg" alt="Image" class="image-tooltip">
+                    </a>
+                    <span class="tooltip-text">沖縄データ</span>
+                </div>
+            </div>
+            <!-- 海外事例 icon -->
+            <div class="mt-4">
+                <div class="image-container">
+                    <a href="./tabs/overseas/index.html">
+                        <img src="./img/overseas.svg" alt="Image" class="image-tooltip">
+                    </a>
+                    <span class="tooltip-text">海外事例</span>
+                </div>
+            </div>
+            <!-- ロジックツリー icon -->
+            <div class="mt-4">
+                <div class="image-container">
+                    <a href="./tabs/okinawa_nn/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/logic.svg" alt="Image" class="image-tooltip">
+                    </a>
+                    <span class="tooltip-text">ロジック・ツリー</span>
+                </div>
+            </div>
+            <!-- コンセプト icon -->
+            <div class="mt-4">
+                <div class="image-container">
+                    <a href="./tabs/grand_design/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/concept.svg" alt="Image" class="image-tooltip">
+                    </a>
+                    <span class="tooltip-text">コンセプト</span>
+                </div>
+            </div>
+            <!-- グランドデザイン icon -->
+            <div class="mt-4">
+                <div class="image-container">
+                    <a href="./tabs/otgd-slide/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/grand_design.svg" alt="Image" class="image-tooltip">
+                    </a>
+                    <span class="tooltip-text">グランド・デザイン</span>
+                </div>
+            </div>
+            <!-- 3d book icon -->
+            <div class="mt-4">
+                <div class="image-container">
+                    <a href="./tabs/otgd-ebook/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/3dbook.svg" alt="Image" class="image-tooltip">
+                    </a>
+                    <span class="tooltip-text">e-Book</span>
+                </div>
+            </div>
+            <hr style="background-color: #191919; height: 2px;">
+            <!-- データソース icon -->
+            <div class="mt-4">
+                <div class="image-container">
+                    <a href="./tabs/source/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/source.svg" alt="Image" class="image-tooltip">
+                    </a>
+                    <span class="tooltip-text">データソース</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- サイドバー: コントロールパネル -->
+        <div class="container bg-dark text-white p-4 position-absolute offcanvas offcanvas-start show" data-bs-backdrop="false" id="off-canvas" style="margin-left:75px ;width: 350px; height:100vh; z-index:2; overflow-y: auto;">
+            <h1 class="display-6">沖縄データ</h1>
+
+            <div class="container">
+                <!-- ------------------------------------------------------------------
+                    タブ 
+                ------------------------------------------------------------------- -->
+                <ul class="nav nav-tabs my-3" id="myTabs">
+                    <li class="nav-item">
+                        <a class="nav-link border border-white active" id="map-tab" data-toggle="tab" href="#mymap">マップ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link border border-white" id="graph-tab" data-toggle="tab" href="#mygraph">グラフ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link border border-white" id="cps-tab" data-toggle="tab" href="#mycps">アンケート</a>
+                    </li>
+                </ul>
+                <!-- End of タブ -->
+
+                <div class="tab-content mt-2">
+                    <!-- ------------------------------------------------------------------
+                        マップタブ・コンテンツ 
+                    ------------------------------------------------------------------- -->
+                    <div class="tab-pane fade show active" id="mymap">
+            
+                        <form id="fly">
+                            <div class="row m-2">
+                                <!-- Select a city to fly to -->
+                                <select id="area" name="select" class="form-select">
+                                    <option value="">エリアを選択</option>
+                                    <option value="fly-japan">日本</option>
+                                    <option value="fly-okinawa">沖縄県</option>
+                                    <option value="fly-mainland">沖縄本島</option>
+                                    <option value="fly-miyako">宮古諸島</option>
+                                    <option value="fly-yaeyama">八重山諸島</option>
+                                </select>
+                            </div>
+                        </form>
+                        <hr style="background-color: #ffffff;">
+
+                        <div class="row mb-3">
+                            <div id="layerSwitcher">
+                                <div class="form-check">
+                                    <input type="checkbox" id="boundariesCheckbox">
+                                    <label for="boundariesCheckbox">行政区域</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="airportsCheckbox">
+                                    <label for="airportsCheckbox">空港</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="flight_networkCheckbox">
+                                    <label for="flight_networkCheckbox">空港ネットワーク</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="portsCheckbox">
+                                    <label for="portsCheckbox">港湾</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="ports_networkCheckbox">
+                                    <label for="ports_networkCheckbox">港湾ネットワーク</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="cruise_nahaCheckbox">
+                                    <label for="cruise_nahaCheckbox">那覇クルーズターミナル</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="roadsCheckbox">
+                                    <label for="roadsCheckbox">道路</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="traffic_congestionsCheckbox">
+                                    <label for="traffic_congestionsCheckbox">交通渋滞</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="busCheckbox">
+                                    <label for="busCheckbox">バス</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="railwaysCheckbox">
+                                    <label for="railwaysCheckbox">鉄道</label>
+                                </div>
+                                <hr style="background-color: #ffffff;">
+                                <div class="form-check">
+                                    <input type="checkbox" id="shizen_koenCheckbox">
+                                    <label for="shizen_koenCheckbox">自然公園</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="shizen_hozenCheckbox">
+                                    <label for="shizen_hozenCheckbox">自然保全地域</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="chouju_hogoCheckbox">
+                                    <label for="chouju_hogoCheckbox">鳥獣保護区</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="nougyou_chiikiCheckbox">
+                                    <label for="nougyou_chiikiCheckbox">農業地域</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="chousei_kuikiCheckbox">
+                                    <label for="chousei_kuikiCheckbox">市街化調整区域</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="youto_chiikiCheckbox">
+                                    <label for="youto_chiikiCheckbox">用途地域</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="usa_militaryCheckbox">
+                                    <label for="usa_militaryCheckbox">在日米軍施設</label>
+                                </div>
+                                <hr style="background-color: #ffffff;">
+                                <div class="form-check">
+                                    <input type="checkbox" id="world_cultural_heritagesCheckbox">
+                                    <label for="world_cultural_heritagesCheckbox">世界文化遺産</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="world_natural_heritagesCheckbox">
+                                    <label for="world_natural_heritagesCheckbox">世界自然遺産</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="tourist_spotsCheckbox">
+                                    <label for="tourist_spotsCheckbox">観光資源 (国交省)</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="attractionsCheckbox">
+                                    <label for="attractionsCheckbox">観光スポット (Google)</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="tourist_routesCheckbox">
+                                    <label for="tourist_routesCheckbox">観光ルート (1泊以上)</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="beachesCheckbox">
+                                    <label for="beachesCheckbox">ビーチ</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="hotelsCheckbox">
+                                    <label for="hotelsCheckbox">宿泊施設</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="high_class_hotelsCheckbox">
+                                    <label for="high_class_hotelsCheckbox">ハイクラスホテル</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="restaurantsCheckbox">
+                                    <label for="restaurantsCheckbox">レストラン</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="convenience_storesCheckbox">
+                                    <label for="convenience_storesCheckbox">コンビニエンスストア</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="hospitalsCheckbox">
+                                    <label for="hospitalsCheckbox">病院・診療所・クリニック</label>
+                                </div>
+                                <hr style="background-color: #ffffff;">
+                                <div class="form-check">
+                                    <input type="checkbox" id="universitiesCheckbox">
+                                    <label for="universitiesCheckbox">大学・短期大学</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="startupsCheckbox">
+                                    <label for="startupsCheckbox">スタートアップ (2000-2019年)</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="coworkingCheckbox">
+                                    <label for="coworkingCheckbox">コワーキングスペース</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="npb_campCheckbox">
+                                    <label for="npb_campCheckbox">プロ野球キャンプ</label>
+                                </div>
+                                <hr style="background-color: #ffffff;">
+                                <div class="form-check">
+                                    <input type="checkbox" id="constellation_currentCheckbox">
+                                    <label for="constellation_currentCheckbox">人流 (KDDI)</label>
+                                </div>
+                                <hr style="background-color: #ffffff;">
+                                <div class="form-check">
+                                    <input type="checkbox" id="chikaCheckbox">
+                                    <label for="chikaCheckbox">地価公示</label>
+                                </div>
+                                <hr style="background-color: #ffffff;">
+                                <div class="form-check">
+                                    <input type="checkbox" id="area_policiesCheckbox">
+                                    <label for="area_policiesCheckbox">エリア方針</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="hotel_projectsCheckbox">
+                                    <label for="hotel_projectsCheckbox">ホテル計画</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" id="development_projectsCheckbox">
+                                    <label for="development_projectsCheckbox">開発計画</label>
+                                </div>
+                                <hr style="background-color: #ffffff;">
+                                <div class="form-check">
+                                    <input type="checkbox" id="videosCheckbox">
+                                    <label for="videosCheckbox">映像</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of マップタブ・コンテンツ -->
+
+                    <!-- ------------------------------------------------------------------
+                        グラフタブ・コンテンツ
+                    ------------------------------------------------------------------- -->
+                    <div class="tab-pane fade" id="mygraph">
+                        <!-- Radio buttons to select graph type -->
+                        <form>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="graphType" id="airport_passengers_domesticChartRadio" value="airport_passengers_domestic" checked>
+                                <label class="form-check-label" for="airport_passengers_domesticChartRadio">国内線旅客者数</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="graphType" id="airport_passengers_internationalChartRadio" value="airport_passengers_international">
+                                <label class="form-check-label" for="airport_passengers_internationalChartRadio">国際線旅客者数</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="graphType" id="air_seaChartRadio" value="air_sea">
+                                <label class="form-check-label" for="air_seaChartRadio">空路・海路入域状況（海外）</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="graphType" id="passengers_by_portChartRadio" value="passengers_by_port">
+                                <label class="form-check-label" for="passengers_by_portChartRadio">クルーズ船寄港回数</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="graphType" id="nationalitiesChartRadio" value="nationalities">
+                                <label class="form-check-label" for="nationalitiesChartRadio">国籍別入域状況（海外）</label>
+                            </div>
+                            <hr style="background-color: #ffffff;">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="graphType" id="school_tourismChartRadio" value="school_tourism">
+                                <label class="form-check-label" for="school_tourismChartRadio">観光関連学科設置教育機関</label>
+                            </div>
+                            <hr style="background-color: #ffffff;">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="graphType" id="startupsChartRadio" value="startups">
+                                <label class="form-check-label" for="startupsChartRadio">スタートアップ数 (2000-2019年)</label>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End of グラフタブ・コンテンツ -->
+
+                    <!-- ------------------------------------------------------------------
+                        CPS・コンテンツ
+                    ------------------------------------------------------------------- -->
+                    <div class="tab-pane fade" id="mycps">
+                        <!-- Radio buttons to select graph type -->
+                        <form id="city" class="mb-3">
+                            <div class="row m-2">
+                            <select id="cityList" name="select" class="form-select">
+                                <option value="north_america">北アメリカ</option>
+                                <option value="united_kingdom">イギリス</option>
+                                <option value="australia">オーストラリア</option>
+                                <option value="singapore">シンガポール</option>
+                            </select>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End of CPS・コンテンツ -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of PC mode -->
+
+    <!-- Bootstrap JavaScript (Popper.js and Bootstrap.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap functionality) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JavaScript-->
+    <script src="./js/map.js"></script>
+    <script src="./js/graph.js"></script>
+    <script src="./js/cps.js"></script>
+    <script src="./js/switchTab.js"></script>
+
+</body>
+</html>

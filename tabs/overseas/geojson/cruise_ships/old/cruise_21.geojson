@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Port": "Heraklion, Crete Greece", "lat": 35.3387352, "lon": 25.1442126 }, "geometry": { "type": "Point", "coordinates": [ 25.1442126, 35.3387352 ] } },
+{ "type": "Feature", "properties": { "Port": "Limassol, Cyprus", "lat": 34.6786322, "lon": 33.0413055 }, "geometry": { "type": "Point", "coordinates": [ 33.0413055, 34.6786322 ] } },
+{ "type": "Feature", "properties": { "Port": "Suez Canal, Egypt", "lat": 30.566672240599729, "lon": 32.446567114445543 }, "geometry": { "type": "Point", "coordinates": [ 32.446567114445543, 30.566672240599729 ] } },
+{ "type": "Feature", "properties": { "Port": "Hurghada, Egypt", "lat": 27.2578957, "lon": 33.8116067 }, "geometry": { "type": "Point", "coordinates": [ 33.8116067, 27.2578957 ] } },
+{ "type": "Feature", "properties": { "Port": "Safaga, Luxor, Egypt", "lat": 26.7500171, "lon": 33.9359756 }, "geometry": { "type": "Point", "coordinates": [ 33.9359756, 26.7500171 ] } },
+{ "type": "Feature", "properties": { "Port": "Jeddah, Saudi Arabia, Mecca", "lat": 21.5291545, "lon": 39.1610863 }, "geometry": { "type": "Point", "coordinates": [ 39.1610863, 21.5291545 ] } },
+{ "type": "Feature", "properties": { "Port": "Salalah, Oman", "lat": 17.0193843, "lon": 54.1107505 }, "geometry": { "type": "Point", "coordinates": [ 54.110750499999988, 17.0193843 ] } },
+{ "type": "Feature", "properties": { "Port": "Muscat, Oman", "lat": 23.5880307, "lon": 58.3828717 }, "geometry": { "type": "Point", "coordinates": [ 58.3828717, 23.5880307 ] } },
+{ "type": "Feature", "properties": { "Port": "Fujairah, UAE", "lat": 25.1220701, "lon": 56.3345481 }, "geometry": { "type": "Point", "coordinates": [ 56.3345481, 25.1220701 ] } },
+{ "type": "Feature", "properties": { "Port": "Ras Al Khaimah, RAK City, UAE", "lat": 25.7994389, "lon": 55.9483882 }, "geometry": { "type": "Point", "coordinates": [ 55.9483882, 25.7994389 ] } },
+{ "type": "Feature", "properties": { "Port": "Abu Dhabi, UAE", "lat": 24.453884, "lon": 54.3773438 }, "geometry": { "type": "Point", "coordinates": [ 54.3773438, 24.453884 ] } },
+{ "type": "Feature", "properties": { "Port": "Dubai, Port Rashid-Dubai Harbour, UAE", "lat": 25.2727971, "lon": 55.2809824 }, "geometry": { "type": "Point", "coordinates": [ 55.280982400000013, 25.2727971 ] } }
+]
+}

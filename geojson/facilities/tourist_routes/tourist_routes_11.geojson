@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "集落散策", "住所": "Okinawa, Japan", "lat": 26.1201911, "lon": 127.7025012 }, "geometry": { "type": "Point", "coordinates": [ 127.7025012, 26.1201911 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "あがり浜", "住所": "Japan, 〒901-3601 沖縄県島尻郡渡名喜村 あがり浜", "lat": 26.3706813, "lon": 127.1463654 }, "geometry": { "type": "Point", "coordinates": [ 127.1463654, 26.3706813 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "シュンザ", "住所": "Tonaki, Shimajiri District, Okinawa 901-3601, Japan", "lat": 26.364587, "lon": 127.1493784 }, "geometry": { "type": "Point", "coordinates": [ 127.1493784, 26.364587 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "島尻毛散策道", "住所": "Japan, 〒901-3601 Okinawa, Shimajiri District, Tonaki, 渡名喜島 島尻毛散策道", "lat": 26.357919, "lon": 127.1534003 }, "geometry": { "type": "Point", "coordinates": [ 127.1534003, 26.357919 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "大本田展望台", "住所": "Tonaki, Shimajiri District, Okinawa 901-3601, Japan", "lat": 26.3557797, "lon": 127.1483688 }, "geometry": { "type": "Point", "coordinates": [ 127.1483688, 26.3557797 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "呼子浜", "住所": "Okinawa, Japan", "lat": 26.1201911, "lon": 127.7025012 }, "geometry": { "type": "Point", "coordinates": [ 127.7025012, 26.1201911 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "フットライト", "住所": "Okinawa, Japan", "lat": 26.1201911, "lon": 127.7025012 }, "geometry": { "type": "Point", "coordinates": [ 127.7025012, 26.1201911 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "星空＆ヤシガニ観測", "住所": "Okinawa, Japan", "lat": 26.1201911, "lon": 127.7025012 }, "geometry": { "type": "Point", "coordinates": [ 127.7025012, 26.1201911 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "里御嶽", "住所": "Tonaki, Shimajiri District, Okinawa 901-3601, Japan", "lat": 26.3741024, "lon": 127.1464655 }, "geometry": { "type": "Point", "coordinates": [ 127.1464655, 26.3741024 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "フェリーターミナル", "住所": "Okinawa, Japan", "lat": 26.1201911, "lon": 127.7025012 }, "geometry": { "type": "Point", "coordinates": [ 127.7025012, 26.1201911 ] } }
+]
+}

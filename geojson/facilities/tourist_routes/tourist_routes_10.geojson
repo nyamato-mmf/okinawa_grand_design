@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "粟国村体験交流施設　島あしび館", "住所": "Aguni, Shimajiri District, Okinawa, Japan", "lat": 26.5824229, "lon": 127.2276174 }, "geometry": { "type": "Point", "coordinates": [ 127.2276174, 26.5824229 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "ヤヒジャ海岸散策", "住所": "Nishi, Aguni, Shimajiri District, Okinawa 901-3703, Japan", "lat": 26.5777446, "lon": 127.217819 }, "geometry": { "type": "Point", "coordinates": [ 127.217819, 26.5777446 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "古民家一棟貸し「星のクラス」", "住所": "87番地 Higashi, Aguni, Shimajiri District, Okinawa 901-3702, Japan", "lat": 26.5849856, "lon": 127.2254583 }, "geometry": { "type": "Point", "coordinates": [ 127.2254583, 26.5849856 ] } }
+]
+}

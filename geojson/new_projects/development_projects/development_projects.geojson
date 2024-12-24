@@ -1,0 +1,14 @@
+{"type":"FeatureCollection", "features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.98428,26.58993,0]},"properties":{"name":"名護市総合交通ターミナル整備","description":"","open":"2030","category":"道路交通／商業施設"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.72973,26.26802,0]},"properties":{"name":"宜野湾道路（仮称）整備（宇地泊交差点）","description":"","open":"未定","category":"道路交通"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.76158,26.30169,0]},"properties":{"name":"宜野湾道路（仮称）整備（北谷南交差点）","description":"","open":"未定","category":"道路交通"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.77021,26.36901,0]},"properties":{"name":"嘉手納町野球場 建て替え","description":"","open":"2025/2","category":"スポーツ施設"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.78771,26.15626,0]},"properties":{"name":"コストコ沖縄南城倉庫店","description":"","open":"2024/8","category":"商業施設"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.98776,26.60114,0]},"properties":{"name":"公立沖縄北部医療センター","description":"","open":"2028","category":"医療施設"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.64375,26.20018,0]},"properties":{"name":"那覇空港誘導路　増設検討","description":"","open":"未定","category":"空港施設"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.74174,26.23916,0]},"properties":{"name":"幸地IC　開通","description":"","open":"2026","category":"道路交通"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.97414,26.64168,0]},"properties":{"name":"ジャングリア","description":"","open":"2025","category":"観光・レクリエーション施設"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.64229,26.17524,0]},"properties":{"name":"瀬長島ロープウェイ構想","description":"","open":"2029","category":"道路交通"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[125.39037,24.75699,0]},"properties":{"name":"宝塚医療大学　観光学部キャンパス","description":"","open":"2024/4","category":"学校施設"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[128.0439886,26.6957481,0]},"properties":{"name":"古宇利島 人工浮島（ポンツーン）構想","description":"","open":"2026","category":"観光・レクリエーション施設"}}
+]}

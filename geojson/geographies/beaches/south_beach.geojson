@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "エリア": "那覇市", "ビーチ": "波の上ビーチ・若狭側", "住所": "Naminoue Beach (Wakasa Side), 1-chōme-25-9 Wakasa, Naha, Okinawa 900-0031, Japan", "lat": 26.2210886, "lon": 127.6723024 }, "geometry": { "type": "Point", "coordinates": [ 127.6723024, 26.2210886 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "エリア": "豊見城市（とみぐすく）", "ビーチ": "豊崎美らSUN（とよさきちゅらさん）ビーチ", "住所": "5 Toyosaki, Tomigusuku, Okinawa 901-0225, Japan", "lat": 26.1578449, "lon": 127.6470579 }, "geometry": { "type": "Point", "coordinates": [ 127.6470579, 26.1578449 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "エリア": "南城市（なんじょう）", "ビーチ": "あざまサンサンビーチ", "住所": "Azama Sun Sun Beach, Azama-1141 3 Chinen, Nanjo, Okinawa 901-1502, Japan", "lat": 26.1783125, "lon": 127.8291875 }, "geometry": { "type": "Point", "coordinates": [ 127.8291875, 26.1783125 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "エリア": "南城市（なんじょう）", "ビーチ": "新原（みーばる）ビーチ", "住所": "Hyakuna-1599-6 Tamagusuku, Nanjo, Okinawa 901-0603, Japan", "lat": 26.1344994, "lon": 127.7913368 }, "geometry": { "type": "Point", "coordinates": [ 127.7913368, 26.1344994 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "エリア": "南城市（なんじょう）", "ビーチ": "百名（ひゃくな）ビーチ", "住所": "Hyakuna, Hyakuna Tamagusuku, Nanjo, Okinawa 901-0603, Japan", "lat": 26.13844779, "lon": 127.7951054 }, "geometry": { "type": "Point", "coordinates": [ 127.7951054, 26.13844779 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "エリア": "南城市（なんじょう）", "ビーチ": "テダ御川（てだうっかー）", "住所": "China Chinen, Nanjo, Okinawa 901-1503, Japan", "lat": 26.1897577, "lon": 127.821678 }, "geometry": { "type": "Point", "coordinates": [ 127.821678, 26.1897577 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "エリア": "南城市（なんじょう）", "ビーチ": "コマカ島", "住所": "Chinen Chinen, Nanjo, Okinawa 901-1513, Japan", "lat": 26.1495348, "lon": 127.8500428 }, "geometry": { "type": "Point", "coordinates": [ 127.8500428, 26.1495348 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "エリア": "糸満市", "ビーチ": "美々（びび）ビーチいとまん", "住所": "Itoman Bibi Beach, 1-chōme-6番15 Nishizakichō, Itoman, Okinawa 901-0306, Japan", "lat": 26.1323147, "lon": 127.6512737 }, "geometry": { "type": "Point", "coordinates": [ 127.6512737, 26.1323147 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "エリア": "糸満市", "ビーチ": "名城（なしろ）ビーチ", "住所": "Nashiro Beach, 982 Nashiro, Itoman, Okinawa 901-0351, Japan", "lat": 26.1002772, "lon": 127.658814 }, "geometry": { "type": "Point", "coordinates": [ 127.658814, 26.1002772 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "エリア": "糸満市", "ビーチ": "ジョン万ビーチ／大度海岸", "住所": "213 Ōdo, Itoman, Okinawa 901-0334, Japan", "lat": 26.0913213, "lon": 127.7066553 }, "geometry": { "type": "Point", "coordinates": [ 127.7066553, 26.0913213 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "エリア": "瀬長島（せなが）", "ビーチ": "瀬長（せなが）ビーチ", "住所": "Senaga Island, Senaga, Tomigusuku, Okinawa 901-0233, Japan", "lat": 26.1748987, "lon": 127.6422368 }, "geometry": { "type": "Point", "coordinates": [ 127.6422368, 26.1748987 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "エリア": "久高島（くだか）", "ビーチ": "イシキ浜", "住所": "Kudaka Chinen, Nanjo, Okinawa 901-1400, Japan", "lat": 26.1599475, "lon": 127.8945075 }, "geometry": { "type": "Point", "coordinates": [ 127.8945075, 26.1599475 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "エリア": "久高島（くだか）", "ビーチ": "めーぎ浜", "住所": "Kudaka Island, Kudaka Chinen, Nanjo, Okinawa 901-1501, Japan", "lat": 26.15736201, "lon": 127.8834455 }, "geometry": { "type": "Point", "coordinates": [ 127.8834455, 26.15736201 ] } }
+]
+}

@@ -1,0 +1,114 @@
+body { margin: 0; padding: 0; }
+
+
+/* ---------------------------------------------------------------------------------  
+  Mapbox
+--------------------------------------------------------------------------------- */ 
+#map  { position: absolute; top: 0; bottom: 0; width: 100%; }
+/* カスタムポップアップ */
+.popupCustom .mapboxgl-popup-content {
+    width: 600px;
+    font: 14px Arial, sans-serif;
+    }
+.popupLuxuryHotel .mapboxgl-popup-content {
+    width: 800px;
+    font: 14px Arial, sans-serif;
+    }
+/* ローディングアイコン */
+#loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+}
+
+/* ---------------------------------------------------------------------------------  
+  Chart.js
+--------------------------------------------------------------------------------- */ 
+#canvas-container {
+    display: none;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    position: absolute;
+    top: 50%; /* Position the container at the vertical center of the window */
+    left: 60%; /* Position the container at the horizontal center of the window */
+    transform: translate(-50%, -50%); /* Move the container back by half of its own width and height */
+    width: 80%; /* Set the width of the container */
+    max-width: 1000px; /* Set a maximum width for the container */
+    height: 600px; /* Set the height of the container */
+    overflow: hidden;
+}
+#myChart { 
+    width: 100%;
+}
+
+/* ---------------------------------------------------------------------------------  
+  CPS
+--------------------------------------------------------------------------------- */ 
+#cps-container {
+    display: none;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    position: absolute;
+    top: 55%; /* Position the container at the vertical center of the window */
+    left: 60%; /* Position the container at the horizontal center of the window */
+    transform: translate(-40%, -50%); /* Move the container back by half of its own width and height */
+    width: 100%; /* Set the width of the container */
+    height: 100%;
+    max-width: 1000px; /* Set a maximum width for the container */
+    overflow-y: scroll; /* Enable vertical scrolling if needed */
+    padding-bottom: 50px
+}
+.chart-container {
+    display: flex; /* Add flexbox */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: calc(100vh - 300px); /* Calculate height to occupy 100% of viewport height minus 20px for margin/padding */
+    width: 650px;
+}
+#myCPS { 
+    width: 100%;
+}
+
+
+/* ---------------------------------------------------------------------------------  
+  カスタムCSS 
+--------------------------------------------------------------------------------- */ 
+.blue-marker {
+    background: linear-gradient(transparent 70%, #00ffff 80%);
+}
+ /* タブの文字色 */
+.nav-tabs .nav-link { color: white; }       
+.nav-tabs .nav-link.active { color: black; }
+
+/* ポップアップテキスト */
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #47476b;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 14px;
+  }
+  
+  .image-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+

@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Port": "Singapore", "lat": 1.352083, "lon": 103.819836 }, "geometry": { "type": "Point", "coordinates": [ 103.819836, 1.352083 ] } },
+{ "type": "Feature", "properties": { "Port": "Koh Samui Island Thailand", "lat": 9.5120168, "lon": 100.0135929 }, "geometry": { "type": "Point", "coordinates": [ 100.0135929, 9.5120168 ] } },
+{ "type": "Feature", "properties": { "Port": "Laem Chabang, Bangkok, Thailand", "lat": 13.1040552, "lon": 100.9158073 }, "geometry": { "type": "Point", "coordinates": [ 100.9158073, 13.1040552 ] } },
+{ "type": "Feature", "properties": { "Port": "Sihanoukville, Cambodia", "lat": 10.6267867, "lon": 103.5115545 }, "geometry": { "type": "Point", "coordinates": [ 103.5115545, 10.6267867 ] } },
+{ "type": "Feature", "properties": { "Port": "Saigon, Ho Chi Minh City, Vietnam", "lat": 10.8230989, "lon": 106.6296638 }, "geometry": { "type": "Point", "coordinates": [ 106.6296638, 10.8230989 ] } },
+{ "type": "Feature", "properties": { "Port": "Nha Trang, Vietnam", "lat": 12.2529152, "lon": 109.1899018 }, "geometry": { "type": "Point", "coordinates": [ 109.1899018, 12.2529152 ] } },
+{ "type": "Feature", "properties": { "Port": "Da Nang, Hue City, Vietnam", "lat": 16.0544068, "lon": 108.2021667 }, "geometry": { "type": "Point", "coordinates": [ 108.2021667, 16.0544068 ] } },
+{ "type": "Feature", "properties": { "Port": "Halong Bay, Vietnam, Ha Long City", "lat": 20.9711977, "lon": 107.0448069 }, "geometry": { "type": "Point", "coordinates": [ 107.0448069, 20.9711977 ] } },
+{ "type": "Feature", "properties": { "Port": "Hong Kong, China", "lat": 22.3193039, "lon": 114.1693611 }, "geometry": { "type": "Point", "coordinates": [ 114.1693611, 22.3193039 ] } }
+]
+}

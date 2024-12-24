@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "ニシ浜", "住所": "NISHIHAMA, Hateruma, Taketomi, Yaeyama District, Okinawa 907-1751, Japan", "lat": 24.0644618, "lon": 123.7621618 }, "geometry": { "type": "Point", "coordinates": [ 123.7621618, 24.0644618 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "波照間集落", "住所": "Hateruma, Taketomi, Yaeyama District, Okinawa 907-1751, Japan", "lat": 24.0631677, "lon": 123.7797054 }, "geometry": { "type": "Point", "coordinates": [ 123.7797054, 24.0631677 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "波照間酒造所", "住所": "156 Hateruma, Taketomi, Yaeyama District, Okinawa 907-1751, Japan", "lat": 24.0616051, "lon": 123.7741878 }, "geometry": { "type": "Point", "coordinates": [ 123.7741878, 24.0616051 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "コート盛", "住所": "Japan, 〒907-1751 Okinawa, Yaeyama District, Taketomi, Hateruma, 波照間島", "lat": 24.0637362, "lon": 123.7743108 }, "geometry": { "type": "Point", "coordinates": [ 123.7743108, 24.0637362 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "波照間島　星空観測タワー", "住所": "3905 Hateruma, Taketomi, Yaeyama District, Okinawa 907-1751, Japan", "lat": 24.0499862, "lon": 123.7977289 }, "geometry": { "type": "Point", "coordinates": [ 123.7977289, 24.0499862 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "高那崎", "住所": "Japan, 〒907-1751 Okinawa, Yaeyama District, Taketomi, Hateruma, 島907−１７５１", "lat": 24.0502941, "lon": 123.8039672 }, "geometry": { "type": "Point", "coordinates": [ 123.8039672, 24.0502941 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "日本最南端の碑", "住所": "Hateruma, Taketomi, Yaeyama District, Okinawa 907-1751, Japan", "lat": 24.0479184, "lon": 123.7948213 }, "geometry": { "type": "Point", "coordinates": [ 123.7948213, 24.0479184 ] } }
+]
+}

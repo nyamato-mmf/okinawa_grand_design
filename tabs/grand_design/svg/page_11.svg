@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1082">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3ab5e9;
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 29.94px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-family: 'UDKakugo_LargePr6N-M-90ms-RKSJ-H', 'FOT-UDKakugo_Large Pr6N';
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-3, .cls-11, .cls-10 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-5, .cls-9 {
+        stroke: #e63485;
+      }
+
+      .cls-5, .cls-10 {
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #e63485;
+      }
+
+      .cls-6 {
+        stroke: #c8c9ca;
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-width: 6px;
+      }
+
+      .cls-12 {
+        letter-spacing: .25em;
+      }
+
+      .cls-7, .cls-8, .cls-10 {
+        stroke: #3ab5e9;
+      }
+
+      .cls-7, .cls-9 {
+        fill: none;
+      }
+
+      .cls-8 {
+        fill: #a7ffff;
+      }
+
+      .cls-3 {
+        font-size: 24px;
+      }
+
+      .cls-13 {
+        fill: #191919;
+        stroke-width: 0px;
+      }
+
+      .cls-11 {
+        font-family: BIZ-UDPGothic, 'BIZ UDPGothic';
+        font-size: 48px;
+      }
+    </style>
+  </defs>
+  <g id="background">
+    <rect class="cls-13" width="1920" height="1082"/>
+  </g>
+  <g id="_11_revenue_2" data-name="11_revenue_2">
+    <rect class="cls-8" x="841.27" y="298.85" width="440.78" height="297.67" rx="2.83" ry="2.83"/>
+    <line class="cls-6" x1="255.15" y1="804.01" x2="1200.61" y2="804.01"/>
+    <circle class="cls-5" cx="334.75" cy="804.01" r="11.12"/>
+    <circle class="cls-10" cx="1067.81" cy="804.01" r="11.12"/>
+    <text class="cls-2" transform="translate(288.48 761.55) scale(1.12 1)"><tspan x="0" y="0">2025</tspan></text>
+    <text class="cls-1" transform="translate(1021.54 763.53) scale(1.12 1)"><tspan x="0" y="0">2035</tspan></text>
+    <rect class="cls-9" x="241.45" y="403.93" width="192.59" height="192.59" rx="2.83" ry="2.83"/>
+    <text class="cls-3" transform="translate(362.28 653.42)"><tspan x="0" y="0">消費単価</tspan></text>
+    <text class="cls-3" transform="translate(190 374.32)"><tspan x="0" y="0">観光客数</tspan></text>
+    <text class="cls-3" transform="translate(1228.6 653.42)"><tspan x="0" y="0">消費単価</tspan></text>
+    <text class="cls-3" transform="translate(795.34 261.25)"><tspan x="0" y="0">観光客数</tspan></text>
+    <rect class="cls-4" x="841.27" y="403.93" width="192.59" height="192.59" rx="2.83" ry="2.83"/>
+    <rect class="cls-7" x="841.13" y="298.99" width="440.78" height="297.67" rx="2.83" ry="2.83"/>
+    <text class="cls-11" transform="translate(112.96 120.28)"><tspan x="0" y="0">Blue Ocea</tspan><tspan class="cls-12" x="271.85" y="0">n</tspan><tspan x="317.46" y="0">サイクル</tspan></text>
+  </g>
+</svg>

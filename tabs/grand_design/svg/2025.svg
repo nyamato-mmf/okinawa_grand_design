@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_2025" data-name="2025" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1082">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #e63485;
+      }
+
+      .cls-1, .cls-4 {
+        stroke-width: 3px;
+      }
+
+      .cls-5 {
+        fill: #3ab5e9;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        font-family: BIZ-UDPGothic, 'BIZ UDPGothic';
+      }
+
+      .cls-5, .cls-8 {
+        font-size: 29.94px;
+      }
+
+      .cls-2 {
+        stroke: #c8c9ca;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 6px;
+      }
+
+      .cls-9 {
+        letter-spacing: .25em;
+      }
+
+      .cls-6 {
+        font-size: 48px;
+      }
+
+      .cls-7 {
+        font-size: 24px;
+      }
+
+      .cls-8 {
+        fill: #e63485;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #3ab5e9;
+      }
+    </style>
+  </defs>
+  <line class="cls-2" x1="255.15" y1="804.01" x2="1200.61" y2="804.01"/>
+  <circle class="cls-1" cx="334.75" cy="804.01" r="11.12"/>
+  <circle class="cls-4" cx="1067.81" cy="804.01" r="11.12"/>
+  <text class="cls-8" transform="translate(283.87 761.55) scale(1.12 1)"><tspan x="0" y="0">2025</tspan></text>
+  <text class="cls-5" transform="translate(1016.94 763.53) scale(1.12 1)"><tspan x="0" y="0">2035</tspan></text>
+  <rect class="cls-3" x="241.45" y="403.93" width="192.59" height="192.59" rx="2.83" ry="2.83"/>
+  <text class="cls-7" transform="translate(362.28 653.42)"><tspan x="0" y="0">消費単価</tspan></text>
+  <text class="cls-7" transform="translate(190 374.32)"><tspan x="0" y="0">観光客数</tspan></text>
+  <text class="cls-6" transform="translate(112.96 120.28)"><tspan x="0" y="0">Bluer Ocea</tspan><tspan class="cls-9" x="293.46" y="0">n</tspan><tspan x="339.07" y="0">サイクル</tspan></text>
+</svg>

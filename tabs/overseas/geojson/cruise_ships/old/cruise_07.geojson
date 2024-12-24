@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Port": "Melbourne, Victoria Australia", "lat": -37.8136276, "lon": 144.9630576 }, "geometry": { "type": "Point", "coordinates": [ 144.963057600000013, -37.8136276 ] } },
+{ "type": "Feature", "properties": { "Port": "Burnie, Tasmania Australia", "lat": -41.0539671, "lon": 145.9046357 }, "geometry": { "type": "Point", "coordinates": [ 145.9046357, -41.0539671 ] } },
+{ "type": "Feature", "properties": { "Port": "Sydney, NSW Australia", "lat": -33.8688197, "lon": 151.2092955 }, "geometry": { "type": "Point", "coordinates": [ 151.2092955, -33.8688197 ] } },
+{ "type": "Feature", "properties": { "Port": "Cairns, Queensland Australia", "lat": -16.9203476, "lon": 145.7709529 }, "geometry": { "type": "Point", "coordinates": [ 145.7709529, -16.9203476 ] } },
+{ "type": "Feature", "properties": { "Port": "Alotau, Papua New Guinea", "lat": -10.3157027, "lon": 150.4587795 }, "geometry": { "type": "Point", "coordinates": [ 150.4587795, -10.3157027 ] } },
+{ "type": "Feature", "properties": { "Port": "Rabaul, New Britain Island Papua New Guinea", "lat": -4.1999648, "lon": 152.1644612 }, "geometry": { "type": "Point", "coordinates": [ 152.1644612, -4.1999648 ] } },
+{ "type": "Feature", "properties": { "Port": "Guam Island USA, Apra Harbor, Marianas", "lat": 13.444304, "lon": 144.793731 }, "geometry": { "type": "Point", "coordinates": [ 144.793731, 13.444304 ] } },
+{ "type": "Feature", "properties": { "Port": "Nagasaki City, Japan Nagasaki", "lat": 32.7503334, "lon": 129.8778888 }, "geometry": { "type": "Point", "coordinates": [ 129.8778888, 32.7503334 ] } },
+{ "type": "Feature", "properties": { "Port": "Aburatsu-Nichinan, Japan Miyazaki", "lat": 31.5830728, "lon": 131.4055785 }, "geometry": { "type": "Point", "coordinates": [ 131.4055785, 31.5830728 ] } },
+{ "type": "Feature", "properties": { "Port": "Tokyo, Japan", "lat": 35.6764225, "lon": 139.650027 }, "geometry": { "type": "Point", "coordinates": [ 139.650027, 35.6764225 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "勝連城跡", "住所": "3807-2 Katsurenhaebaru, Uruma, Okinawa 904-2311, Japan", "lat": 26.3304832, "lon": 127.8790368 }, "geometry": { "type": "Point", "coordinates": [ 127.8790368, 26.3304832 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "海中道路", "住所": "Kaichu Rd, Uruma, Okinawa, Japan", "lat": 26.3316567, "lon": 127.927394 }, "geometry": { "type": "Point", "coordinates": [ 127.927394, 26.3316567 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "平安座島", "住所": "Henza Island, Yonashirohenza, Uruma, Okinawa 904-2426, Japan", "lat": 26.342154, "lon": 127.9587111 }, "geometry": { "type": "Point", "coordinates": [ 127.9587111, 26.342154 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "宮城島", "住所": "Miyagi Island, Uruma, Okinawa, Japan", "lat": 26.3699159, "lon": 127.9837545 }, "geometry": { "type": "Point", "coordinates": [ 127.9837545, 26.3699159 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "伊計島", "住所": "Ikei Island, Yonashiroikei, Uruma, Okinawa 904-2421, Japan", "lat": 26.393366, "lon": 127.9969928 }, "geometry": { "type": "Point", "coordinates": [ 127.9969928, 26.393366 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "浜比嘉島", "住所": "Hamahiga Island, Uruma, Okinawa, Japan", "lat": 26.3213245, "lon": 127.9585947 }, "geometry": { "type": "Point", "coordinates": [ 127.9585947, 26.3213245 ] } }
+]
+}

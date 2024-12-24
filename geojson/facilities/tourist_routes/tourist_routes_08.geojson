@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "比嘉ロードパーク", "住所": "Higa Roadpark, Higa Gusukube, Miyakojima, Okinawa 906-0000, Japan", "lat": 24.7849365, "lon": 125.3843373 }, "geometry": { "type": "Point", "coordinates": [ 125.3843373, 24.7849365 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "東平安名崎", "住所": "Bora-1221-14 Gusukube, Miyakojima, Okinawa 906-0000, Japan", "lat": 24.7191788, "lon": 125.4684503 }, "geometry": { "type": "Point", "coordinates": [ 125.4684503, 24.7191788 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "イムギャーマリンガーデン", "住所": "Imgya Marine Garden, Tomori-605-2 Gusukube, Miyakojima, Okinawa 906-0107, Japan", "lat": 24.7247007, "lon": 125.3583502 }, "geometry": { "type": "Point", "coordinates": [ 125.3583502, 24.7247007 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "佐和田の浜", "住所": "SAWATA NO HAMA, Sawada-1725 Irabu, Miyakojima, Okinawa 906-0000, Japan", "lat": 24.8377299, "lon": 125.1572351 }, "geometry": { "type": "Point", "coordinates": [ 125.1572351, 24.8377299 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "みやこ下地島空港ターミナル", "住所": "Shimoji Island Airport, Sawada-1727 Irabu, Miyakojima, Okinawa 906-0507, Japan", "lat": 24.829199, "lon": 125.1494787 }, "geometry": { "type": "Point", "coordinates": [ 125.1494787, 24.829199 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "渡口の浜", "住所": "Okinawa, Japan", "lat": 26.1201911, "lon": 127.7025012 }, "geometry": { "type": "Point", "coordinates": [ 127.7025012, 26.1201911 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "与那覇前浜ビーチ", "住所": "Yonaha Beach, Yonaha-1199番 Shimoji, Miyakojima, Okinawa 906-0000, Japan", "lat": 24.7349726, "lon": 125.2629745 }, "geometry": { "type": "Point", "coordinates": [ 125.2629745, 24.7349726 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "竜宮城展望台", "住所": "Kurima Shimoji, Miyakojima, Okinawa 906-0000, Japan", "lat": 24.7260129, "lon": 125.2516393 }, "geometry": { "type": "Point", "coordinates": [ 125.2516393, 24.7260129 ] } }
+]
+}

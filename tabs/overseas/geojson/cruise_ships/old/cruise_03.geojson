@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Port": "Singapore", "lat": 1.352083, "lon": 103.819836 }, "geometry": { "type": "Point", "coordinates": [ 103.819836, 1.352083 ] } },
+{ "type": "Feature", "properties": { "Port": "Saigon, Ho Chi Minh City, Vietnam", "lat": 10.8230989, "lon": 106.6296638 }, "geometry": { "type": "Point", "coordinates": [ 106.6296638, 10.8230989 ] } },
+{ "type": "Feature", "properties": { "Port": "Kota Kinabalu, Borneo Malaysia Sabah", "lat": 5.9843644, "lon": 116.077344 }, "geometry": { "type": "Point", "coordinates": [ 116.077344, 5.9843644 ] } },
+{ "type": "Feature", "properties": { "Port": "Manila, Luzon Island Philippines", "lat": 14.5995124, "lon": 120.9842195 }, "geometry": { "type": "Point", "coordinates": [ 120.9842195, 14.5995124 ] } },
+{ "type": "Feature", "properties": { "Port": "Guam Island USA, Apra Harbor, Marianas", "lat": 13.444304, "lon": 144.793731 }, "geometry": { "type": "Point", "coordinates": [ 144.793731, 13.444304 ] } },
+{ "type": "Feature", "properties": { "Port": "Honolulu, Oahu Island Hawaii", "lat": 21.3098845, "lon": -157.8581401 }, "geometry": { "type": "Point", "coordinates": [ -157.858140100000014, 21.3098845 ] } },
+{ "type": "Feature", "properties": { "Port": "Kahului, Maui Island Hawaii", "lat": 20.8893016, "lon": -156.4728725 }, "geometry": { "type": "Point", "coordinates": [ -156.4728725, 20.8893016 ] } },
+{ "type": "Feature", "properties": { "Port": "Los Angeles, Long Beach-San Pedro, California", "lat": 33.7360619, "lon": -118.2922461 }, "geometry": { "type": "Point", "coordinates": [ -118.2922461, 33.7360619 ] } }
+]
+}

@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "伊是名村ふれあい民俗館", "住所": "196-129 Izena, Shimajiri District, Okinawa 905-0604, Japan", "lat": 26.922558, "lon": 127.941012 }, "geometry": { "type": "Point", "coordinates": [ 127.941012, 26.922558 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "銘苅家住宅", "住所": "902 Izena, Shimajiri District, Okinawa 905-0604, Japan", "lat": 26.917704, "lon": 127.9347751 }, "geometry": { "type": "Point", "coordinates": [ 127.9347751, 26.917704 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "伊是名集落のフクギ並木", "住所": "Izena, Shimajiri District, Okinawa 905-0604, Japan", "lat": 26.9168536, "lon": 127.933826 }, "geometry": { "type": "Point", "coordinates": [ 127.933826, 26.9168536 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "伊是名ビーチ", "住所": "Playa de Izena, Izena, Shimajiri District, Okinawa 905-0604, Japan", "lat": 26.9149343, "lon": 127.9293812 }, "geometry": { "type": "Point", "coordinates": [ 127.9293812, 26.9149343 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "伊是名山森林公園", "住所": "Izenayama Forest Park, Izena, Shimajiri District, Okinawa 905-0604, Japan", "lat": 26.9175604, "lon": 127.9458222 }, "geometry": { "type": "Point", "coordinates": [ 127.9458222, 26.9175604 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "二見ヶ浦海岸", "住所": "Japan, 〒905-0604 沖縄県島尻郡伊是名村伊是名 二見ヶ浦海岸", "lat": 26.9123686, "lon": 127.9422847 }, "geometry": { "type": "Point", "coordinates": [ 127.9422847, 26.9123686 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "伊是名玉御殿", "住所": "Izena, Shimajiri District, Okinawa 905-0604, Japan", "lat": 26.9144357, "lon": 127.9522047 }, "geometry": { "type": "Point", "coordinates": [ 127.9522047, 26.9144357 ] } }
+]
+}

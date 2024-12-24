@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "玉取崎展望台", "住所": "Ibaruma, Ishigaki, Okinawa 907-0332, Japan", "lat": 24.4905784, "lon": 124.2788974 }, "geometry": { "type": "Point", "coordinates": [ 124.2788974, 24.4905784 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "平久保崎", "住所": "Hirakubo, Ishigaki, Okinawa 907-0331, Japan", "lat": 24.6099416, "lon": 124.316105 }, "geometry": { "type": "Point", "coordinates": [ 124.316105, 24.6099416 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "米原のヤエヤマヤシ群落", "住所": "Fukai, Ishigaki, Okinawa 907-0451, Japan", "lat": 24.4514384, "lon": 124.1948635 }, "geometry": { "type": "Point", "coordinates": [ 124.1948635, 24.4514384 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "川平湾", "住所": "Kabira, Ishigaki, Okinawa 907-0453, Japan", "lat": 24.4470894, "lon": 124.1587576 }, "geometry": { "type": "Point", "coordinates": [ 124.1587576, 24.4470894 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "御神崎", "住所": "Sakieda, Ishigaki, Okinawa 907-0452, Japan", "lat": 24.4532031, "lon": 124.0769975 }, "geometry": { "type": "Point", "coordinates": [ 124.0769975, 24.4532031 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "石垣やいま村", "住所": "967-1 Nagura, Ishigaki, Okinawa 907-0021, Japan", "lat": 24.4046594, "lon": 124.1444792 }, "geometry": { "type": "Point", "coordinates": [ 124.1444792, 24.4046594 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "バンナ公園", "住所": "Banna Park, 961-15 Ishigaki, Okinawa 907-0023, Japan", "lat": 24.3684239, "lon": 124.1586992 }, "geometry": { "type": "Point", "coordinates": [ 124.1586992, 24.3684239 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "石垣島鍾乳洞", "住所": "1666番地 Ishigaki, Okinawa 907-0023, Japan", "lat": 24.3617425, "lon": 124.1544657 }, "geometry": { "type": "Point", "coordinates": [ 124.1544657, 24.3617425 ] } }
+]
+}

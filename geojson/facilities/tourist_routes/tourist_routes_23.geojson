@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "竹富町竹富島重要伝統的建造物群保存地区", "住所": "Taketomi, Yaeyama District, Okinawa 907-1101, Japan", "lat": 24.3306271, "lon": 124.0853351 }, "geometry": { "type": "Point", "coordinates": [ 124.0853351, 24.3306271 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "コンドイ浜(竹富島)", "住所": "Kondoi Beach, Taketomi, Yaeyama District, Okinawa 907-1101, Japan", "lat": 24.3252872, "lon": 124.0775373 }, "geometry": { "type": "Point", "coordinates": [ 124.0775373, 24.3252872 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "島内周遊観光バスで島巡り(小浜島)", "住所": "Kohama Island, Kohama, Taketomi, Yaeyama District, Okinawa 907-1221, Japan", "lat": 24.3466078, "lon": 123.9805756 }, "geometry": { "type": "Point", "coordinates": [ 123.9805756, 24.3466078 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "小浜島(小浜島・周辺離島で宿泊)", "住所": "Kohama Island, Kohama, Taketomi, Yaeyama District, Okinawa 907-1221, Japan", "lat": 24.3466078, "lon": 123.9805756 }, "geometry": { "type": "Point", "coordinates": [ 123.9805756, 24.3466078 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "星砂の浜(西表島)", "住所": "Hoshizuna Beach, Uehara, Taketomi, Yaeyama District, Okinawa 907-1541, Japan", "lat": 24.4365338, "lon": 123.7774278 }, "geometry": { "type": "Point", "coordinates": [ 123.7774278, 24.4365338 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "トレッキングツアー(西表島) ※事前にツアー要予約", "住所": "Iriomote-jima, Taketomi, Yaeyama District, Okinawa, Japan", "lat": 24.3300613, "lon": 123.8187977 }, "geometry": { "type": "Point", "coordinates": [ 123.8187977, 24.3300613 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "由布島", "住所": "Yubu Island, Komi, Taketomi, Yaeyama District, Okinawa 907-1432, Japan", "lat": 24.3424794, "lon": 123.9324903 }, "geometry": { "type": "Point", "coordinates": [ 123.9324903, 24.3424794 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "西表島(西表島・周辺離島で宿泊)", "住所": "Iriomote-jima, Taketomi, Yaeyama District, Okinawa, Japan", "lat": 24.3300613, "lon": 123.8187977 }, "geometry": { "type": "Point", "coordinates": [ 123.8187977, 24.3300613 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "伊古桟橋(黒島)", "住所": "Kuroshima, Taketomi, Yaeyama District, Okinawa 907-1311, Japan", "lat": 24.2472018, "lon": 124.016737 }, "geometry": { "type": "Point", "coordinates": [ 124.016737, 24.2472018 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "黒島", "住所": "Kuroshima, Taketomi, Yaeyama District, Okinawa 907-1311, Japan", "lat": 24.2339257, "lon": 124.0140113 }, "geometry": { "type": "Point", "coordinates": [ 124.0140113, 24.2339257 ] } }
+]
+}

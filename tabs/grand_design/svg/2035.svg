@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_2035" data-name="2035" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1082">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: 'UDKakugo_LargePr6N-M-90ms-RKSJ-H', 'FOT-UDKakugo_Large Pr6N';
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 24px;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4, .cls-8 {
+        stroke: #e63485;
+      }
+
+      .cls-4, .cls-9 {
+        stroke-width: 3px;
+      }
+
+      .cls-10 {
+        fill: #3ab5e9;
+      }
+
+      .cls-10, .cls-11, .cls-2, .cls-12 {
+        font-family: BIZ-UDPGothic, 'BIZ UDPGothic';
+      }
+
+      .cls-10, .cls-12 {
+        font-size: 29.94px;
+      }
+
+      .cls-5 {
+        stroke: #c8c9ca;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-width: 6px;
+      }
+
+      .cls-13 {
+        letter-spacing: .25em;
+      }
+
+      .cls-11 {
+        font-size: 48px;
+      }
+
+      .cls-6, .cls-7, .cls-9 {
+        stroke: #3ab5e9;
+      }
+
+      .cls-6, .cls-8 {
+        fill: none;
+      }
+
+      .cls-7 {
+        fill: #a7ffff;
+      }
+
+      .cls-12 {
+        fill: #e63485;
+      }
+    </style>
+  </defs>
+  <rect class="cls-7" x="841.27" y="298.85" width="440.78" height="297.67" rx="2.83" ry="2.83"/>
+  <line class="cls-5" x1="255.15" y1="804.01" x2="1200.61" y2="804.01"/>
+  <circle class="cls-4" cx="334.75" cy="804.01" r="11.12"/>
+  <circle class="cls-9" cx="1067.81" cy="804.01" r="11.12"/>
+  <rect class="cls-8" x="241.45" y="403.93" width="192.59" height="192.59" rx="2.83" ry="2.83"/>
+  <text class="cls-2" transform="translate(362.28 653.42)"><tspan x="0" y="0">消費単価</tspan></text>
+  <text class="cls-2" transform="translate(190 374.32)"><tspan x="0" y="0">観光客数</tspan></text>
+  <text class="cls-2" transform="translate(1228.6 653.42)"><tspan x="0" y="0">消費単価</tspan></text>
+  <text class="cls-1" transform="translate(795.34 261.25)"><tspan x="0" y="0">観光客数</tspan></text>
+  <rect class="cls-3" x="841.27" y="403.93" width="192.59" height="192.59" rx="2.83" ry="2.83"/>
+  <rect class="cls-6" x="841.13" y="298.99" width="440.78" height="297.67" rx="2.83" ry="2.83"/>
+  <text class="cls-11" transform="translate(112.96 120.28)"><tspan x="0" y="0">Bluer Ocea</tspan><tspan class="cls-13" x="293.46" y="0">n</tspan><tspan x="339.07" y="0">サイクル</tspan></text>
+  <text class="cls-12" transform="translate(283.87 761.55) scale(1.12 1)"><tspan x="0" y="0">2025</tspan></text>
+  <text class="cls-10" transform="translate(1016.94 763.53) scale(1.12 1)"><tspan x="0" y="0">2035</tspan></text>
+</svg>

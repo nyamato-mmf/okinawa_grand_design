@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Port": "Yokohama, Tokyo, Japan Kanagawa", "lat": 35.4436739, "lon": 139.6379639 }, "geometry": { "type": "Point", "coordinates": [ 139.637963899999988, 35.4436739 ] } },
+{ "type": "Feature", "properties": { "Port": "Shimizu, Japan Shizuoka", "lat": 35.1132336, "lon": 138.4987208 }, "geometry": { "type": "Point", "coordinates": [ 138.4987208, 35.1132336 ] } },
+{ "type": "Feature", "properties": { "Port": "Kobe-Osaka, Kyoto, Japan", "lat": 34.6937249, "lon": 135.5022535 }, "geometry": { "type": "Point", "coordinates": [ 135.5022535, 34.6937249 ] } },
+{ "type": "Feature", "properties": { "Port": "Keelung, Taipei City, Taiwan China", "lat": 25.1275997, "lon": 121.7391815 }, "geometry": { "type": "Point", "coordinates": [ 121.7391815, 25.1275997 ] } },
+{ "type": "Feature", "properties": { "Port": "Hong Kong, China", "lat": 22.3193039, "lon": 114.1693611 }, "geometry": { "type": "Point", "coordinates": [ 114.1693611, 22.3193039 ] } },
+{ "type": "Feature", "properties": { "Port": "Manila, Luzon Island Philippines", "lat": 14.5995124, "lon": 120.9842195 }, "geometry": { "type": "Point", "coordinates": [ 120.9842195, 14.5995124 ] } },
+{ "type": "Feature", "properties": { "Port": "Alotau, Papua New Guinea", "lat": -10.3157027, "lon": 150.4587795 }, "geometry": { "type": "Point", "coordinates": [ 150.4587795, -10.3157027 ] } },
+{ "type": "Feature", "properties": { "Port": "Conflict Islands PNG, Papua New Guinea", "lat": -10.7697222, "lon": 151.7911111 }, "geometry": { "type": "Point", "coordinates": [ 151.7911111, -10.7697222 ] } },
+{ "type": "Feature", "properties": { "Port": "Brisbane, Queensland Australia", "lat": -27.4704528, "lon": 153.0260341 }, "geometry": { "type": "Point", "coordinates": [ 153.0260341, -27.4704528 ] } },
+{ "type": "Feature", "properties": { "Port": "Sydney, NSW Australia", "lat": -33.8688197, "lon": 151.2092955 }, "geometry": { "type": "Point", "coordinates": [ 151.2092955, -33.8688197 ] } }
+]
+}

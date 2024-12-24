@@ -1,0 +1,11 @@
+{"type":"FeatureCollection", "features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[128.09889,26.68,0]},"properties":{"name":"（仮称）グランヴィリオリゾート沖縄大宜味村","description":"","open":"2025","rooms":"200"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[124.15875,24.44708,0]},"properties":{"name":"（仮称）石垣市川平リゾートホテル","description":"","open":"未定","rooms":"未定"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.70833,26.27243,0]},"properties":{"name":"（仮称）浦添西海岸ホテル","description":"","open":"2028","rooms":"280"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.64053,26.17621,0]},"properties":{"name":"瀬長島ホテル アネックス棟新設","description":"","open":"2027","rooms":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[124.08919,24.32687,0]},"properties":{"name":"ピースアイランド竹富島温泉（仮称）","description":"","open":"2025","rooms":"27"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.75773,26.31695,0]},"properties":{"name":"「カーニバルパーク・ミハマ」跡地ホテル","description":"","open":"2026","rooms":"209"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[125.25936,24.80099,0]},"properties":{"name":"キャノピーbyヒルトン沖縄宮古島リゾート","description":"","open":"2026","rooms":"310"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.85653,26.48964,0]},"properties":{"name":"フォーシーズンズ・リゾート・アンド・プライベート・レジデンス沖縄(仮称）","description":"","open":"2027","rooms":"279"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[127.81673,26.45431,0]},"properties":{"name":"PGMホテルリゾート沖縄","description":"","open":"2026","rooms":"200"}}
+]}

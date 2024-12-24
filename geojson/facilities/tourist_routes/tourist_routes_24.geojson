@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "塩川御嶽とフクギ並木(しおかわうたきとふくぎなみき)", "住所": "Okinawa, Japan", "lat": 26.1201911, "lon": 127.7025012 }, "geometry": { "type": "Point", "coordinates": [ 127.7025012, 26.1201911 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "嶺間御嶽(みねまうたき)", "住所": "Shiokawa, Tarama, Miyako District, Okinawa 906-0601, Japan", "lat": 24.672035, "lon": 124.7040911 }, "geometry": { "type": "Point", "coordinates": [ 124.7040911, 24.672035 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "泊御嶽(とまりうたき)", "住所": "Okinawa, Japan", "lat": 26.1201911, "lon": 127.7025012 }, "geometry": { "type": "Point", "coordinates": [ 127.7025012, 26.1201911 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "運城御嶽(うんぐすくうたき)", "住所": "Okinawa, Japan", "lat": 26.1201911, "lon": 127.7025012 }, "geometry": { "type": "Point", "coordinates": [ 127.7025012, 26.1201911 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "多良間神社", "住所": "Nakasuji, Tarama, Miyako District, Okinawa 906-0602, Japan", "lat": 24.6707464, "lon": 124.7001099 }, "geometry": { "type": "Point", "coordinates": [ 124.7001099, 24.6707464 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "ウプメーカ", "住所": "Okinawa, Japan", "lat": 26.1201911, "lon": 127.7025012 }, "geometry": { "type": "Point", "coordinates": [ 127.7025012, 26.1201911 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "多良間村ふるさと民俗学習館", "住所": "1098-1 Nakasuji, Tarama, Miyako District, Okinawa 906-0602, Japan", "lat": 24.6703048, "lon": 124.6961596 }, "geometry": { "type": "Point", "coordinates": [ 124.6961596, 24.6703048 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "八重山遠見台", "住所": "Kuroshima, Taketomi, Yaeyama District, Okinawa 907-1311, Japan", "lat": 24.2417452, "lon": 124.0078106 }, "geometry": { "type": "Point", "coordinates": [ 124.0078106, 24.2417452 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "ふる里海浜公園", "住所": "Furusato Seaside Park, Nakasuji, Tarama, Miyako District, Okinawa 906-0602, Japan", "lat": 24.6761503, "lon": 124.695067 }, "geometry": { "type": "Point", "coordinates": [ 124.695067, 24.6761503 ] } }
+]
+}

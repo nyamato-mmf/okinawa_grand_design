@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "今帰仁の駅 そーれ", "住所": "157 Tamashiro, Nakijin, Kunigami District, Okinawa 905-0415, Japan", "lat": 26.680602, "lon": 127.972047 }, "geometry": { "type": "Point", "coordinates": [ 127.972047, 26.680602 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "古宇利大橋", "住所": "Sumuide, Nago, Okinawa 905-1635, Japan", "lat": 26.6788745, "lon": 128.0128861 }, "geometry": { "type": "Point", "coordinates": [ 128.0128861, 26.6788745 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "古宇利ビーチ", "住所": "Kouri Beach, Kouri, Nakijin, Kunigami District, Okinawa 905-0406, Japan", "lat": 26.6946875, "lon": 128.0210625 }, "geometry": { "type": "Point", "coordinates": [ 128.0210625, 26.6946875 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "古宇利オーシャンタワー", "住所": "538 Kouri, Nakijin, Kunigami District, Okinawa 905-0406, Japan", "lat": 26.7003526, "lon": 128.0241928 }, "geometry": { "type": "Point", "coordinates": [ 128.0241928, 26.7003526 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "古宇利島／ティーヌ浜／トケイ浜", "住所": "P279+CG, Kouri, Nakijin, Kunigami District, Okinawa 905-0406, Japan", "lat": 26.7135625, "lon": 128.0188125 }, "geometry": { "type": "Point", "coordinates": [ 128.0188125, 26.7135625 ] } },
+{ "type": "Feature", "properties": { "県名": "沖縄県", "スポット": "ゲストハウス吉", "住所": "179 Yonamine, Nakijin, Kunigami District, Okinawa 905-0425, Japan", "lat": 26.7005294, "lon": 127.9503201 }, "geometry": { "type": "Point", "coordinates": [ 127.9503201, 26.7005294 ] } }
+]
+}
